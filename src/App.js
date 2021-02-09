@@ -9,14 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Amelia />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Karoline />
       </header>
     </div>
   );

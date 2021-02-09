@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Amelia from './components/Amelia'
+import Karoline from './components/Karoline'
+import Julia from './components/Julia'
 
 function App() {
   return (

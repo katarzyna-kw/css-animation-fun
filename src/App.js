@@ -9,12 +9,20 @@ import 'swiper/swiper-bundle.css';
 import './App.css';
 
 function App() {
+  const slides = [];
+
+  for (let i = 0; i < 5; i += 1) {
+    slides.push(
+      <SwiperSlide key={`slide-${i}`}>
+        <img 
+          src={`https://picsum.photos/id/${i+1}/500/300`} alt={`Slide ${i}`} />
+      </SwiperSlide>
+    );
+  }
   return (
-    <div className="App">
-        <Amelia />
-        <Karoline />
-        <Julia />
-    </div>
+    <React.Fragment>
+      <Swiper id="main">{slides}</Swiper>
+    </React.Fragment>
   );
 }
 

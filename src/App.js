@@ -13,7 +13,7 @@ function App() {
 
   for (let i = 0; i < 5; i += 1) {
     slides.push(
-      <SwiperSlide key={`slide-${i}`}>
+      <SwiperSlide key={`slide-${i}`} tag="li">
         <img 
           src={`https://picsum.photos/id/${i+1}/500/300`} alt={`Slide ${i}`} />
       </SwiperSlide>
@@ -24,7 +24,7 @@ function App() {
       <Karoline />
       <Julia />
     <React.Fragment>
-      <Swiper id="main">{slides}</Swiper>
+      <Swiper tag="section" wrapperTag="ul">{slides}</Swiper>
     </React.Fragment>
     </div>
   );

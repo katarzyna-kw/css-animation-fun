@@ -4,9 +4,11 @@ import Amelia from './components/Amelia'
 import Karoline from './components/Karoline'
 import Julia from './components/Julia'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore from 'swiper';
+import SwiperCore, {Navigation, Pagination} from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './App.css';
+
+SwiperCore.use([Navigation, Pagination]);
 
 function App() {
   const slides = [];

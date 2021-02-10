@@ -19,10 +19,14 @@ function App() {
       </SwiperSlide>
     );
   }
-  return (
+  return (<div className="container">
+      <Amelia />
+      <Karoline />
+      <Julia />
     <React.Fragment>
       <Swiper id="main">{slides}</Swiper>
     </React.Fragment>
+    </div>
   );
 }
 

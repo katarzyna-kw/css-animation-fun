@@ -15,7 +15,9 @@ function App() {
     slides.push(
       <SwiperSlide key={`slide-${i}`} tag="li">
         <img 
-          src={`https://picsum.photos/id/${i+1}/500/300`} alt={`Slide ${i}`} />
+          src={`https://picsum.photos/id/${i+1}/500/300`} 
+          style={{ listStyle: 'none' }}
+          alt={`Slide ${i}`} />
       </SwiperSlide>
     );
   }
@@ -24,7 +26,7 @@ function App() {
       <Karoline />
       <Julia />
     <React.Fragment>
-      <Swiper tag="section" wrapperTag="ul">{slides}</Swiper>
+      <Swiper id="main" tag="section" wrapperTag="ul" navigation pagination>{slides}</Swiper>
     </React.Fragment>
     </div>
   );

@@ -23,6 +23,20 @@ function App() {
       </SwiperSlide>
     );
   }
+
+  const thumbs = [];
+
+  for (let i = 0; i < 5; i += 1) {
+    thumbs.push(
+      <SwiperSlide key={`thumb-${i}`} tag="li">
+        <img 
+          src={`https://picsum.photos/id/${i+1}/163/100`} 
+          style={{ listStyle: 'none' }}
+          alt={`Thumbnail ${i}`} />
+      </SwiperSlide>
+    );
+  }
+
   return (<div className="container">
       <Amelia />
       <Karoline />

@@ -1,13 +1,12 @@
+import './Karoline.css'
+
 function Karoline() {
     return (
       <div className="Karoline">
-        <header className="K-header">
-          <p>
-            Karoline!
-          </p>
-        </header>
-      </div>
-    );
+        <h1>Karoline</h1>
+
+      </div>    
+      );
   }
   
   export default Karoline;

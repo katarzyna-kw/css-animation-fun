@@ -38,6 +38,11 @@ function App() {
         slidesPerView={2}
       >
         {slides}</Swiper>
+
+        <Swiper id="thumbs" onSwiper={setThumbsSwiper}>
+          {thumbs}
+        </Swiper>
+        
     </React.Fragment>
     </div>
   );

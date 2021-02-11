@@ -11,7 +11,7 @@
   }
   
   .Amelia {
-    min-height: 75vh;
+    min-height: 50vh;
     position: relative;
     width: 100vw;
     display: flex;
@@ -23,7 +23,7 @@
   }
   
   .Amelia h1 {
-    font-size: 150px;
+    font-size: 7em;
     color: var(--primary-color);
     transform: translateY(-00px);
     animation: 1.2s slideIn ease-in-out forwards 1s;

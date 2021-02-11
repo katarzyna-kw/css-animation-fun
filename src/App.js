@@ -4,7 +4,7 @@ import Amelia from './components/Amelia'
 import Karoline from './components/Karoline'
 import Julia from './components/Julia'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, {Navigation, Pagination} from 'swiper';
+import SwiperCore, { Navigation, Pagination } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './App.css';
 
@@ -24,18 +24,6 @@ function App() {
     );
   }
 
-  const thumbs = [];
-
-  for (let i = 0; i < 5; i += 1) {
-    thumbs.push(
-      <SwiperSlide key={`thumb-${i}`} tag="li">
-        <img 
-          src={`https://picsum.photos/id/${i+1}/163/100`} 
-          style={{ listStyle: 'none' }}
-          alt={`Thumbnail ${i}`} />
-      </SwiperSlide>
-    );
-  }
 
   return (<div className="container">
       <Amelia />
@@ -52,10 +40,6 @@ function App() {
         slidesPerView={2}
       >
         {slides}</Swiper>
-
-        <Swiper id="thumbs" onSwiper={setThumbsSwiper}>
-          {thumbs}
-        </Swiper>
         
     </React.Fragment>
     </div>

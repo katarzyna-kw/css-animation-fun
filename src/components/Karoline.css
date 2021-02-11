@@ -9,7 +9,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: #0E0E52;
+    background-color: #40E0D0;
     animation-name: example;
     animation-duration: 4s;
   

@@ -28,7 +28,16 @@ function App() {
       <Karoline />
       <Julia />
     <React.Fragment>
-      <Swiper id="main" tag="section" wrapperTag="ul" navigation pagination>{slides}</Swiper>
+      <Swiper 
+        id="main" 
+        tag="section" 
+        wrapperTag="ul" 
+        navigation 
+        pagination
+        spaceBetween={0}
+        slidesPerView={2}
+      >
+        {slides}</Swiper>
     </React.Fragment>
     </div>
   );

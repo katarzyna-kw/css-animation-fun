@@ -1,11 +1,12 @@
+import './Amelia.css'
+
 function Amelia() {
     return (
       <div className="Amelia">
-        <header className="A-header">
-          <p>
+          <h1>
             Amelia!
-          </p>
-        </header>
+          </h1>
+          <div className="overlay"></div>
       </div>
     );
   }

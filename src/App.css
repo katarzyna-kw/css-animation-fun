@@ -1,5 +1,5 @@
 .swiper-container {
-  width: 500px;
+  width: 480px;
 }
 
 .swiper-wrapper {
@@ -38,11 +38,15 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
   }
 }

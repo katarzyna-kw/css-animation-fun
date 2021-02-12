@@ -29,7 +29,8 @@ export default () => {
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
                 alt="election map website screencapture" 
             />
-            <h5>Election map coded with Javascript given html and css // Skillcrush  project</h5>
+            <h5>
+                Election map coded with Javascript given html and css // <a href="https://www.skillcrush.com" target="_blank" rel="noreferrer">Skillcrush</a> project // <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank" rel="noreferrer">github repo</a></h5>
         </SwiperSlide>
         <SwiperSlide>
             <img 

@@ -26,9 +26,6 @@ function App() {
 
 
   return (<div className="container">
-      <Amelia />
-      <Karoline />
-      <Julia />
     <React.Fragment>
       <Swiper 
         id="main" 
@@ -37,11 +34,15 @@ function App() {
         navigation 
         pagination
         spaceBetween={0}
-        slidesPerView={2}
+        slidesPerView={1}
       >
         {slides}</Swiper>
         
     </React.Fragment>
+    <Amelia />
+      <Karoline />
+      <Julia />
+
     </div>
   );
 }

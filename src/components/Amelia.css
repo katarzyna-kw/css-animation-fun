@@ -11,7 +11,7 @@
   }
   
   .Amelia {
-    min-height: 50vh;
+    min-height: 30vh;
     position: relative;
     width: 100vw;
     display: flex;
@@ -23,9 +23,9 @@
   }
   
   .Amelia h1 {
-    font-size: 7em;
+    font-size: 5em;
     color: var(--primary-color);
-    transform: translateY(-00px);
+    transform: translateY(-30px);
     animation: 1.2s slideIn ease-in-out forwards 1s;
     z-index: 10;
     opacity: 0;
@@ -35,7 +35,7 @@
   .Amelia h1::before {
       content: '';
       width: 0%;
-      height: 76px;
+      height: 46px;
       background-color: var(--secondary-color);
       position: absolute;
       bottom: -10px;

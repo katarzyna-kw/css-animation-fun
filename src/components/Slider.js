@@ -58,14 +58,14 @@ export default () => {
             src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/4.p.png?raw=true"
             alt="mock school website screencapture"
         />
-        <h5>Responsive mock website for Polish school coded with HTML and CSS // freecodecamp.com project</h5>
+        <h5>Responsive mock website for Polish school coded with HTML and CSS  // <a href="https://www.freecodecamp.com" target="_blank" rel="noreferrer">freecodecamp.com</a> project // <a href="https://github.com/katarzyna-kw/fcc-challenge-3" target="_blank" rel="noreferrer">github repo</a></h5>
         </SwiperSlide>
         <SwiperSlide>
             <img 
             src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/5.png?raw=true"
             alt="mock school website screencapture"
         />
-        <h5>Responsive mock documentation page coded with HTML, CSS, and Javascript // freecodecamp.com project</h5>
+        <h5>Responsive mock documentation page coded with HTML, CSS, and Javascript  // <a href="https://www.freecodecamp.com" target="_blank" rel="noreferrer">freecodecamp.com</a> project // <a href="https://github.com/katarzyna-kw/fcc-challenge-4" target="_blank" rel="noreferrer">github repo</a></h5>
         </SwiperSlide>
         <SwiperSlide>
             <img 

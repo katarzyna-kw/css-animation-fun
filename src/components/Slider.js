@@ -72,7 +72,7 @@ export default () => {
             src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/6.png?raw=true"
             alt="digital stretching routine website screencapture"
         />
-        <h5>Stretching routine website coded with HTML and CSS</h5>
+        <h5>Stretching routine website coded with HTML and CSS // <a href="https://github.com/katarzyna-kw/stretch" target="_blank" rel="noreferrer">github repo</a></h5>
         </SwiperSlide>
 
       </Swiper>

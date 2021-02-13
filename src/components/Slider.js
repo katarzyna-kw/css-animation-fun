@@ -37,7 +37,7 @@ export default () => {
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/1.png?raw=true"
                 alt="quote generator screencapture"
             />
-            <h5>Responsive quote generator coded with vanilla Javascript</h5>
+            <h5>Responsive quote generator coded with vanilla Javascript // <a href="https://github.com/katarzyna-kw/quote-generator" target="_blank" rel="noreferrer">github repo</a></h5>
         </SwiperSlide>
         <SwiperSlide>
             <img 

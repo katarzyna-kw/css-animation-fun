@@ -51,7 +51,7 @@ export default () => {
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/3.png?raw=true" 
                 alt="survey form screencapture"
             />
-            <h5>Responsive mock survey form coded with HTML and CSS // freecodecamp.com project</h5>
+            <h5>Responsive mock survey form coded with HTML and CSS  // <a href="https://www.freecodecamp.com" target="_blank" rel="noreferrer">freecodecamp.com</a> project // <a href="https://github.com/katarzyna-kw/fcc-challenge-2" target="_blank" rel="noreferrer">github repo</a></h5>
         </SwiperSlide>
         <SwiperSlide>
             <img 

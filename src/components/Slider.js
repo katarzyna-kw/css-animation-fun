@@ -44,7 +44,7 @@ export default () => {
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/2a.png?raw=true" 
                 alt="cat clock screencapture"
             />
-            <h5>Clock coded with Javascript and styled given html and template css code // Skillcrush project</h5>
+            <h5>Clock coded with Javascript and styled given html and template css code // <a href="https://www.skillcrush.com" target="_blank" rel="noreferrer">Skillcrush</a> project // <a href="https://github.com/katarzyna-kw/lolcat" target="_blank" rel="noreferrer">github repo</a></h5>
         </SwiperSlide>
         <SwiperSlide>
             <img 

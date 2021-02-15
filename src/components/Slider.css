@@ -26,6 +26,10 @@
     color: darkorchid;
   }
 
+  .swiper-button-prev {
+    color: #EFC3E6;
+  }
+
 
   @media screen and (min-width: 640px) {
     .swiper-container {

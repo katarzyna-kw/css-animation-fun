@@ -1,11 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-    
+
   .Amelia {
-    min-height: 100px;
+    height: 100px;
     position: relative;
     margin-top: 50px;
     width: 70%;

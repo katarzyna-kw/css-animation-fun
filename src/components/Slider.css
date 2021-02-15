@@ -34,6 +34,13 @@
     color: #EFC3E6;
   }
 
+  .swiper-pagination-bullet-active {
+    background: red;
+    opacity: 1;
+    }
+    
+    
+
 
   @media screen and (min-width: 640px) {
     .swiper-container {

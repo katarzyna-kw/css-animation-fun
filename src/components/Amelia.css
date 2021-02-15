@@ -1,4 +1,3 @@
-
   .Amelia {
     height: 100px;
     position: relative;
@@ -14,8 +13,10 @@
   .Amelia h1 {
     font-size: 5em;
     color: orchid;
-    transform: translateY(-20px);
-    animation: 1s slideIn ease-in-out forwards 1s;
+    transform: translateY(-30px);
+    animation: .5s slideIn ease-in-out forwards 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
         
   @keyframes slideIn {

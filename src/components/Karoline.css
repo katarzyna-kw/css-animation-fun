@@ -26,7 +26,7 @@
         
   @keyframes slideIn {
     100% {
-      transform: translateY(50px);
+      transform: translateY(30px);
       opacity: 1;
     }
   }

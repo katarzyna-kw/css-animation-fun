@@ -4,9 +4,8 @@ function Amelia() {
     return (
       <div className="Amelia">
           <h1>
-            Amelia!
+            <span><i class="far fa-grin"></i></span> Amelia!
           </h1>
-          <div className="overlay"></div>
       </div>
     );
   }

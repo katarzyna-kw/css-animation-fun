@@ -13,8 +13,8 @@
   .Julia h1 {
     font-size: 5em;
     color: #DA70D6;
-    transform: translateX(-700px);
-    animation: 3s slideIn ease-in-out forwards 1s;
+    transform: translateX(600px);
+    animation: 2s slideOut ease-in-out forwards 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
@@ -24,9 +24,9 @@
   }
 
         
-  @keyframes slideIn {
+  @keyframes slideOut {
     100% {
-      transform: translateY(20px);
+      transform: translateY(0px);
       opacity: 1;
     }
   }

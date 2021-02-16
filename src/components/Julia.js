@@ -4,8 +4,9 @@ import './Julia.css'
 function Julia() {
     return (
       <div className="Julia">
+        
         <h1>
-            Julia<span>!</span>
+        <span><i class="fas fa-cat"></i></span>Julia<span>!</span>
         </h1>
       </div>
     );

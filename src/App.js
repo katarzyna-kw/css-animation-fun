@@ -29,10 +29,11 @@ import Slider from './components/Slider'
 function App() {
   return (
   <div className="container">
-    <Slider />
     <Amelia />
     <Karoline />
     <Julia />
+    <Slider />
+
 
 {/* //     <React.Fragment>
 //       <Swiper  */}

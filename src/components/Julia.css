@@ -20,13 +20,13 @@
   }
 
   .Julia h1 span {
-      color: #DA70D6;
+      color: papayawhip;
   }
 
         
   @keyframes slideIn {
     100% {
-      transform: translateY(0px);
+      transform: translateY(20px);
       opacity: 1;
     }
   }

@@ -5,7 +5,7 @@ function Julia() {
     return (
       <div className="Julia">
         <h1>
-            Julia!
+            Julia<span>!</span>
         </h1>
       </div>
     );

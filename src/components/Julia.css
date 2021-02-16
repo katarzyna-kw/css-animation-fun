@@ -12,7 +12,7 @@
   
   .Julia h1 {
     font-size: 5em;
-    color: papayawhip;
+    color: #DA70D6;
     transform: translateX(-700px);
     animation: 3s slideIn ease-in-out forwards 1s;
     animation-iteration-count: infinite;
@@ -20,7 +20,7 @@
   }
 
   .Julia h1 span {
-      color: #9F00FF;
+      color: #DA70D6;
   }
 
         

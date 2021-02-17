@@ -12,7 +12,7 @@
   }
   
   .Julia h1 {
-    font-size: 5em;
+    font-size: 8.5em;
     color: #DA70D6;
     transform: translateX(600px);
     animation: 2s slideOut ease-in-out forwards 4s;

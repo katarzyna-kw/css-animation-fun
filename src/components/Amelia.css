@@ -11,7 +11,7 @@
   }
   
   .Amelia h1 {
-    font-size: 5em;
+    font-size: 6em;
     color: orchid;
     transform: translateY(-30px);
     animation: 1s slideIn ease-in-out forwards 1s;

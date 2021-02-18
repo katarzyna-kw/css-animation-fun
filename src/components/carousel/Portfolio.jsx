@@ -1,5 +1,5 @@
 import Slider from './Slider';
-import '../../App.css';
+import '../carousel/Portfolio.css';
 
 function Portfolio() {
   return (

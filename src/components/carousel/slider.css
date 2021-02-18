@@ -27,8 +27,7 @@
 }
 
 .slide-image {
-    width: 88%;
-    height: 88%;
+    width: 100%;
     position: relative;
     object-fit: cover;
 }

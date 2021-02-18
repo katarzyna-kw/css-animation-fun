@@ -4,6 +4,7 @@ import Amelia from './components/Amelia'
 import Karoline from './components/Karoline'
 import Julia from './components/Julia'
 import Slider from './components/Slider'
+import Portfolio from './components/carousel/Portfolio'
 
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import SwiperCore, { Navigation, Pagination } from 'swiper';
@@ -33,6 +34,7 @@ function App() {
     <Karoline />
     <Julia />
     <Slider />
+    <Portfolio />
 
 
 {/* //     <React.Fragment>

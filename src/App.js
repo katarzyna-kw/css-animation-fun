@@ -33,8 +33,8 @@ function App() {
     <Amelia />
     <Karoline />
     <Julia />
-    <Slider />
-    <Portfolio />
+    {/* <Slider />
+    <Portfolio /> */}
 
 
 {/* //     <React.Fragment>

@@ -1,5 +1,5 @@
 .Karoline {
-    height: 100px;
+    height:100px;
     position: relative;
     margin-top: 50px;
     width: 100%;
@@ -11,9 +11,9 @@
   }
   
   .Karoline h1 {
-    font-size: 6em;
+    font-size: 4em;
     color: papayawhip;
-    transform: translateX(-700px);
+    transform: translateX(-500px);
     animation: 3s slideIn ease-in-out forwards 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -29,4 +29,12 @@
       transform: translateY(30px);
       opacity: 1;
     }
+  }
+
+  @media (min-width: 600px) {
+    .Karoline h1 {
+      font-size: 6em;
+      transform: translateX(-700px);
+    }
+  
   }

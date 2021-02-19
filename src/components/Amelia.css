@@ -11,7 +11,7 @@
   }
   
   .Amelia h1 {
-    font-size: 6em;
+    font-size: 3.5em;
     color: orchid;
     transform: translateY(-30px);
     animation: 1s slideIn ease-in-out forwards 1s;
@@ -28,4 +28,12 @@
       transform: translateY(0px);
       opacity: 1;
     }
+  }
+
+
+  @media (min-width: 600px) {
+    .Amelia h1 {
+      font-size: 6em;
+    }
+  
   }

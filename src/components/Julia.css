@@ -12,10 +12,10 @@
   }
   
   .Julia h1 {
-    font-size: 8.5em;
+    font-size: 5em;
     color: #DA70D6;
     transform: translateX(600px);
-    animation: 2s slideOut ease-in-out forwards 4s;
+    animation: 2s slideOut ease-in-out forwards 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
@@ -29,4 +29,11 @@
       transform: translateY(0px);
       opacity: 1;
     }
+  }
+
+  @media (min-width: 600px) {
+    .Julia h1 {
+      font-size: 8.5em;
+    }
+  
   }

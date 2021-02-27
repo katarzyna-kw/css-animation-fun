@@ -3,6 +3,7 @@ import './App.css';
 import Amelia from './components/Amelia'
 import Karoline from './components/Karoline'
 import Julia from './components/Julia'
+import Rainbow from './components/Rainbow';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Amelia />
     <Karoline />
     <Julia />
+    <Rainbow />
 
     </div>
   );

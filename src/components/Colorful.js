@@ -5,13 +5,13 @@ function Colorful() {
     return (
       <div className="Colorful">
         
-        <h1>
+        <h1 className="rainbow-letters">
         <span>C</span>
-        <span>O</span>
-        <span>L</span>
-        <span>O</span>
-        <span>R</span>
-        <span>S</span>
+        <span>o</span>
+        <span>l</span>
+        <span>o</span>
+        <span>r</span>
+        <span>s</span>
         <span>!</span>
         <span>!</span>
         </h1>

@@ -4,6 +4,7 @@ import Amelia from './components/Amelia'
 import Karoline from './components/Karoline'
 import Julia from './components/Julia'
 import Rainbow from './components/Rainbow';
+import Colorful from './components/Colorful'
 
 function App() {
   return (

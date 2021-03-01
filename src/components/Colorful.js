@@ -6,7 +6,14 @@ function Colorful() {
       <div className="Colorful">
         
         <h1>
-        <span></span> Colors<span>!</span>
+        <span>C</span>
+        <span>O</span>
+        <span>L</span>
+        <span>O</span>
+        <span>R</span>
+        <span>S</span>
+        <span>!</span>
+        <span>!</span>
         </h1>
       </div>
     );

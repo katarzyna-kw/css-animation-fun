@@ -10,3 +10,16 @@
     align-items: center;
     font-family: 'Shrikhand', serif;
   }
+
+  .Colorful h1 {
+    font-size: 5em;
+    color: #DA70D6;
+    transform: translateX(600px);
+    animation: 2s slideOut ease-in-out forwards 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  .Colorful h1 span {
+      color: papayawhip;
+  }

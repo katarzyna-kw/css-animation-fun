@@ -13,6 +13,11 @@
 
   .rainbow-letters {
     font-size: 5em;
+    transform: translateY(-30px);
+    animation: 1s slideIn ease-in-out forwards 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
   }
 
   .rainbow-letters span:nth-child(10n + 1) {

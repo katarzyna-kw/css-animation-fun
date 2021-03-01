@@ -13,7 +13,7 @@ function App() {
     <Karoline />
     <Julia />
     <Rainbow />
-
+    <Colorful />
     </div>
   );
 }

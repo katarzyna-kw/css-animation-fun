@@ -1,0 +1,12 @@
+.Colorful {
+    height: 100px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    background-color: papayawhip;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shrikhand', serif;
+  }

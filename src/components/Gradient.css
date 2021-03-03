@@ -1,0 +1,16 @@
+.Gradient {
+    height: 100px;
+    position: relative;
+    margin-top: 50px;
+    width:100%;
+    display: flex;
+    background-color: turquoise;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+  }
+  
+  .Gradient h1 {
+    font-size: 3.5em;
+    color: slateblue
+  }

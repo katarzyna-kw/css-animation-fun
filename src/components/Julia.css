@@ -14,7 +14,7 @@
   .Julia h1 {
     font-size: 5em;
     color: #ab47bc;
-    transform: translateX(600px);
+    transform: translateX(900px);
     animation: 2s slideOut ease-in-out forwards 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;

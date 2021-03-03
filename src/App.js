@@ -5,6 +5,7 @@ import Karoline from './components/Karoline'
 import Julia from './components/Julia'
 import Rainbow from './components/Rainbow';
 import Colorful from './components/Colorful'
+import Gradient from './components/Gradient'
 
 function App() {
   return (

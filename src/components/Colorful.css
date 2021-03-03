@@ -5,7 +5,7 @@
     margin-bottom: 50px;
     width: 100%;
     display: flex;
-    background-color: papayawhip;
+    background-color: palegoldenrod;
     justify-content: center;
     align-items: center;
     font-family: 'Shrikhand', serif;
@@ -57,8 +57,8 @@
   }  
 
   @keyframes bg {
-    0% {background-color: papayawhip}
+    0% {background-color: palegoldenrod}
     25% {background-color: peachpuff}
-    50% {background-color: palevioletred}
-    75% {background-color: paleturquoise}
+    50% {background-color: paleturquoise}
+    75% {background-color: palegreen}
   }

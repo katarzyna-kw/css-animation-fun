@@ -15,6 +15,7 @@ function App() {
     <Julia />
     <Rainbow />
     <Colorful />
+    <Gradient />
     </div>
   );
 }

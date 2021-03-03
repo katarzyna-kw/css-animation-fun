@@ -13,5 +13,6 @@
   
   .Gradient h1 {
     font-size: 3.5em;
-    color: slateblue
+    color: slateblue;
+    transform: scale(2) skew(-3deg);
   }

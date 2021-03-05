@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
     font-family: Poppins;
+    animation-name: bg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
   
   .Gradient h1 {

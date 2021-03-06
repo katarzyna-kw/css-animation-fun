@@ -22,6 +22,9 @@
     -webkit-text-fill-color: transparent;  
   }
 
+
+
+  
   @media (max-width: 600px) {
     .Gradient h1 {
       font-size: 2.5rem;

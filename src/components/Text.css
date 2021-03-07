@@ -6,8 +6,8 @@
 
 .Text h1 {
     color: orchid;
-    transform: translateX(-500px);
-    animation: 3s scroll ease-in-out backwards 2s;
+    transform: translateX(-900px);
+    animation: 3s scroll ease-in-out backwards 5s;
     animation-iteration-count: infinite;
     animation-direction: normal;
   }

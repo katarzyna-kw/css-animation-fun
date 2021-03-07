@@ -19,6 +19,6 @@
 @keyframes scroll {
   100% {
     transform: translateY(0px);
-    opacity: .5;
+    opacity: 0;
   }
 }

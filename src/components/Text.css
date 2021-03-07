@@ -1,10 +1,9 @@
-.Rainbow {
-    background-color: lightgray;
+.Text {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
   }
 
-.Rainbow h1 {
+.Text h1 {
     color: orchid;
 }

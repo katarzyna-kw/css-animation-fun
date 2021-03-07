@@ -7,7 +7,7 @@
 .Text h1 {
     color: orchid;
     transform: translateX(-900px);
-    animation: 3s scroll ease-in-out backwards 5s;
+    animation: 10s scroll ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: normal;
   }
@@ -17,8 +17,13 @@
   }
 
 @keyframes scroll {
+
+  0% {
+    transform: translateX(-900px);
+    opacity: 0.25;
+    }
   100% {
-    transform: translateY(0px);
-    opacity: 0;
+    transform: translateX(900px);
+    opacity: 1;
   }
 }

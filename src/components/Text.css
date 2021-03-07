@@ -6,9 +6,19 @@
 
 .Text h1 {
     color: orchid;
+    transform: translateX(-500px);
+    animation: 3s scroll ease-in-out backwards 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
   }
 
 .Text h1 span {
       color: #00bcd4;
   }
-      
+
+@keyframes scroll {
+  100% {
+    transform: translateY(0px);
+    opacity: .5;
+  }
+}

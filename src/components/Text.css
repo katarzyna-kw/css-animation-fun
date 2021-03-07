@@ -6,4 +6,9 @@
 
 .Text h1 {
     color: orchid;
-}
+  }
+
+.Text h1 span {
+      color: #00bcd4;
+  }
+      

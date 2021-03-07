@@ -6,7 +6,7 @@ function Text() {
       <div className="Text">
         
         <h1>
-        <span><i class="fas fa-cat"></i></span> this is some text<span>!</span>
+        <span><i class="fas fa-circle"></i></span> this is some text<span></span>
         </h1>
       </div>
     );

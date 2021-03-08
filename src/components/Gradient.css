@@ -30,7 +30,7 @@
   @keyframes scrollTwo {
 
     0% {
-      transform: translateX(-900px);
+      transform: translateX(-1050px);
       opacity: 1;
       }
     100% {

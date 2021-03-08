@@ -27,6 +27,8 @@
                  -36px 36px #ff5722;
 }  
 
+
+
 @media (max-width: 600px) {
   .Rainbow h1 {
     font-size: 4em;

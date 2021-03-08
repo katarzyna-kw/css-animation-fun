@@ -15,8 +15,8 @@ function App() {
     <Karoline />
     <Julia />
     <Rainbow />
-    <Colorful />
     <Gradient />
+    <Colorful />
     <Text />
     </div>
   );

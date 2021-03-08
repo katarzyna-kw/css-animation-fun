@@ -22,7 +22,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
     transform: translateX(-900px);
-    animation: 5s scrollTwo ease-in-out;
+    animation:12s scrollTwo ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: normal;
   }

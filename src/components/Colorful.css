@@ -17,8 +17,8 @@
 
   .rainbow-letters {
     font-size: 7em;
-    transform: translateY(-10px);
-    animation: 1.5s slideIn ease-in-out backwards 1s;
+    transform: translateX(-10px);
+    animation: 4s slideIn ease-in-out backwards 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 

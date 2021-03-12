@@ -58,9 +58,9 @@
 
   @keyframes bg {
     0% {background-color: peachpuff}
-    25% {background-color: orchid}
-    50% {background-color: paleturquoise}
-    75% {background-color: palegreen}
+    25% {background-color: lightsalmon}
+    50% {background-color: lightgray}
+    75% {background-color: plum}
   }
 
   @media (max-width: 600px) {

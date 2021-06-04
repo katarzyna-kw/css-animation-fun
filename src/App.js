@@ -6,6 +6,7 @@ import Julia from './components/Julia'
 import Rainbow from './components/Rainbow';
 import Colorful from './components/Colorful'
 import Gradient from './components/Gradient'
+import Puffy from './components/Puffy'
 import Text from './components/Text'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Rainbow />
     <Gradient />
     <Colorful />
+    <Puffy />
     </div>
   );
 }

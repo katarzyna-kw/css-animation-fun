@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Cyrene";
+  src: local("Cyrene"),
+    url("./fonts/Cyrene.otf") format("truetype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;

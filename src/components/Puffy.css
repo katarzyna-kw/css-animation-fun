@@ -2,22 +2,24 @@
     height:100px;
     position: relative;
     margin-top: 50px;
+    margin-bottom: 100px;
     width: 100%;
     display: flex;
-    background-color: orchid;
+    background-color: rgb(182, 95, 179);
     justify-content: center;
     align-items: center;
     font-family: Cyrene, sans-serif;
   }
   
   .Puffy h1 {
-    font-size: 8em;
+    font-size: 6em;
     color: white;
     transform: translateX(100px);
-    animation: 3s slideIn ease-in-out forwards 1s;
+    animation: 6s slideIn ease-in-out forwards 2s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate-reverse;
     text-transform: uppercase;
+    margin-bottom: 100px;
   }
 
   .Karoline h1 span {
